@@ -8,35 +8,61 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Catholic App Design System */
+    --background: 0 0% 99.9%;
+    --foreground: 224 71% 4%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 224 71% 4%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 224 71% 4%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Azul celestial profundo */
+    --primary: 224 76% 48%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 224 100% 67%;
+    --primary-dark: 224 100% 25%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Dourado suave */
+    --secondary: 43 96% 56%;
+    --secondary-foreground: 26 83% 14%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Dourado como accent */
+    --accent: 43 96% 56%;
+    --accent-foreground: 26 83% 14%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 224 76% 48%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Custom Catholic colors */
+    --heavenly-blue: 224 76% 48%;
+    --golden-soft: 43 96% 56%;
+    --pure-white: 0 0% 99.9%;
+    --soft-gray: 210 40% 98%;
+    --light-gray: 220 13% 91%;
+    
+    /* Gradients */
+    --gradient-holy: linear-gradient(135deg, hsl(var(--heavenly-blue)), hsl(var(--golden-soft)));
+    --gradient-peaceful: linear-gradient(180deg, hsl(var(--pure-white)), hsl(var(--soft-gray)));
+    --gradient-divine: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--primary-light)));
+    
+    /* Shadows */
+    --shadow-divine: 0 10px 30px -5px hsl(var(--heavenly-blue) / 0.3);
+    --shadow-gentle: 0 4px 20px -4px hsl(var(--heavenly-blue) / 0.15);
+    --shadow-golden: 0 8px 25px -8px hsl(var(--golden-soft) / 0.4);
+
+    /* Animations */
+    --transition-holy: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
